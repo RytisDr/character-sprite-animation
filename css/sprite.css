@@ -1,0 +1,11 @@
+.animation{
+    background: url(../img/transformation-sprite-smarter-half-38steps-complete.png);
+    width: 298px;
+    height: 480px;
+    animation: transformation 7s steps(38) alternate infinite;
+    }
+ @keyframes transformation{
+        to{
+            background-position: -11405px;
+        }
+}
